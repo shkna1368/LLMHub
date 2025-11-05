@@ -9,7 +9,7 @@
 - **GitHub Models**
 
 ## Technologies
-- Java 17+
+- Java 21
 - Spring Boot
 - Spring AI
 - Vaadin (for UI)
