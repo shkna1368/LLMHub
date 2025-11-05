@@ -18,7 +18,7 @@ public class GeminiClient {
 
     public GeminiClient( ) {
         this.restClient = RestClient.builder()
-                .baseUrl("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBZOpekL9SiANIu52FlAmsZLlGKXIv5b7Q")
+                .baseUrl("https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=<Your_KEY>")
                 .defaultHeader("Content-Type", "application/json")
                 .build();
 
